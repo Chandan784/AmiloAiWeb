@@ -1,18 +1,18 @@
-import React from 'react'
-import Header from '../Components/Header'
-import ServiceSection from '../Components/Service/ServiceSection'
-import ServiceCard from '../Components/Service/ServiceCard'
-import ServiceCardLast from '../Components/Service/ServiceCardLast'
+import React from "react";
+import Header from "../Components/Header";
+import ServiceSection from "../Components/service/ServiceSection";
+import ServiceCard from "../Components/Service/ServiceCard";
+import ServiceCardLast from "../Components/Service/ServiceCardLast";
 
 const Service = () => {
   return (
     <>
-      <Header title={"Service"}/>
-      <ServiceSection/>
+      <Header title={"Service"} />
+      <ServiceSection />
       <ServiceCard />
-      <ServiceCardLast/>
+      <ServiceCardLast />
     </>
-  )
-}
+  );
+};
 
-export default Service
+export default Service;
