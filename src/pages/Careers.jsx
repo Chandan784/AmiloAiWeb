@@ -7,7 +7,6 @@ const Careers = () => {
     <>
       <Header title={"Carrers"} />
       <CareerCard />
-      <CareerCard />
     </>
   );
 };
