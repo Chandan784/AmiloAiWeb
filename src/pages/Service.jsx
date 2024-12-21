@@ -8,7 +8,7 @@ const Service = () => {
   return (
     <>
       <Header title={"Service"} />
-      <ServiceSection />
+
       <ServiceCard />
       <ServiceCardLast />
     </>
